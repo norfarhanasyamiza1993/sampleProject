@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "array-find-index": "^1.0.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "json-concat": "0.0.1",
+    "merge-json": "0.1.0-b.3",
+    "mongoose": "^4.13.9",
+    "promise": "^8.0.1",
+    "query-string": "^5.0.1",
+    "sort-json-array": "^0.1.7"
+  }
+}
