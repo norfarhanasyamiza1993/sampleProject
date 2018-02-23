@@ -17,7 +17,7 @@ var arrayFindIndex = require('array-find-index');
 console.log(connection.connectionString); // test db url
 
 var Kit = mongoose.model('KitInfo', model,'ustglobal');
-
+//mongoose connect method
 mongoose.connect(connection.connectionString,{
     keepAlive:true,
     reconnectTries:Number.MAX_VALUE,
@@ -97,7 +97,7 @@ app.get('/gettotalCount', function (req, res) {
 //     var objID;
 //     var nameVal;
 //     var ageVal;
-//     var addressVal;
+
 
 //     for (var i = 0; i < str.length; i++) {
 //         result =str[i]; 
