@@ -285,6 +285,8 @@ app.post('/ex-replace', function(req, res){
     var input = req.body.word;
     //console.log(input);
     //replace character a and e
+	//g for global: not care for upper and lower case
+	//replace the character with T and Z
     var replaceOpt = input.replace(/a/g,"T").replace(/e/g,"Z");
     
     res.send({status:'Success', before:input, after :replaceOpt});
